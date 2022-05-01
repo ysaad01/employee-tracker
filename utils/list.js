@@ -1,7 +1,7 @@
-/* add list all depts */
+require("console.table");
+const app = require("../server");
+const db = require("../db/connection");
 
 
-/* add list all roles */
 
-
-/* add list all employees */
+module.exports = list;
