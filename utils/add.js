@@ -131,7 +131,7 @@ const add = {
         },
       ])
       .then((answer) => {
-        const newEmployee = [answer.fistName, answer.lastName];
+        const newEmployee = [answer.firstName, answer.lastName];
 
         // select employee's roles:
         const roleSql = `SELECT roles.id, roles.title FROM roles`;
