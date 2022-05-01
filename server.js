@@ -45,7 +45,7 @@ const promptUser = () => {
         add.addEmployee();
       }
       if (choices === 'Update an Employee') {
-        update.updateEmployee();
+        update.updateEmployeeRole();
       }
       if (choices === 'Exit') {
         db.end();
