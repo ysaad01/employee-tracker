@@ -15,8 +15,20 @@ const list = {
       })
       .catch((error) => console.log(error));
   },
-  /* all roles list */
   
+  /* all roles list */
+  listAllRoles() {
+    const sql = `SELECT id, title AS titles, salary FROM roles`;
+
+    db.promise()
+      .query(sql)
+      .then(([response]) => {
+        console.table(response);
+        app.promptUser();
+      })
+      .catch((error) => console.log(error));
+  },
+
   /* all employees list */
 };
 
