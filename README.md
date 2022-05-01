@@ -72,7 +72,10 @@
   * ```node server.js```
   
   ### __Demo__
-  
+  ![Application Demo](./assets/images/employee-tracker-demo.gif)  
+
+  [Or Click Here to Watch a Walk Through of the Application](https://drive.google.com/file/d/1YTQKYZwVzxFLmBxMI5WQokB3_hj5K_xt/view)
+
   
   ## [Questions](#table-of-contents)
   
